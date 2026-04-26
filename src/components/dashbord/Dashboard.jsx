@@ -3,7 +3,7 @@ import "./Dashboard.css";
 import Navbar from "../navbar/Navbar.jsx";
 import ClientOverview from "../clientsoverview/ClientsOverview.jsx";
 
-const API_BASE = "https://truvish-backend-production.up.railway.app";
+const API_BASE_URL = "https://truvish-backend-production.up.railway.app";
 
 const Dashboard = () => {
   const [dateRange, setDateRange] = useState("30");
