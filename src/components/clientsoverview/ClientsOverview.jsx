@@ -10,8 +10,7 @@ const ClientOverview = ({
   const [entriesPerPage, setEntriesPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = "";
-};
+  const [error, setError] = useState("");
 
   useEffect(() => {
     fetchClients();
